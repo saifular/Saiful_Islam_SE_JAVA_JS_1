@@ -40,7 +40,8 @@ class Menu extends Component {
                 </Navbar>
 
                 <div className={this.state.sideNavClass}>
-                <NavLink> <Link className="NavItem" to="home"> <FontAwesomeIcon icon={faHome} /> <span className={this.state.NavText}>Home</span> </Link></NavLink>
+                <NavLink> <Link className="NavItem" to="/"> <FontAwesomeIcon icon={faHome} /> <span className={this.state.NavText}>Home</span> </Link></NavLink>
+                <NavLink><Link className="NavItem" to="/addproduct"> <FontAwesomeIcon icon={faShoppingBag} /> <span className={this.state.NavText}>Add Product</span></Link></NavLink>
                  
                 </div>
                 <div onClick={this.showHideSideNav} className={this.state.mainDivOverlay}>
