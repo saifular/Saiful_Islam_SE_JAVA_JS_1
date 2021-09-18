@@ -27,7 +27,8 @@ class a extends Component {
                                     <Card className="card">
                                         <Card.Body>
                                       
-                                            <h5 className="des-text">Total Contact</h5>
+                                            <h5 className="des-text">Total Sold Product</h5>
+                                            <h5 className="des-text">100</h5>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -35,7 +36,8 @@ class a extends Component {
                                     <Card className="card">
                                         <Card.Body>
                                      
-                                            <h5 className="des-text">Total Order</h5>
+                                            <h5 className="des-text">Most Profitable Product</h5>
+                                            <h5 className="des-text">Ram</h5>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -43,7 +45,8 @@ class a extends Component {
                                     <Card className="card">
                                         <Card.Body>
                                         
-                                            <h5 className="des-text">Total Category</h5>
+                                            <h5 className="des-text">Total RAM</h5>
+                                            <h5 className="des-text">100</h5>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -51,7 +54,8 @@ class a extends Component {
                                     <Card className="card">
                                         <Card.Body>
                                         
-                                            <h5 className="des-text">Total SubCategory</h5>
+                                            <h5 className="des-text">MOTHERBOARD</h5>
+                                            <h5 className="des-text">100</h5>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -59,31 +63,8 @@ class a extends Component {
                                     <Card className="card">
                                         <Card.Body>
                                           
-                                            <h5 className="des-text">Total ClientReview</h5>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col className="p-2" md={3} log={3} sm={6}>
-                                    <Card className="card">
-                                        <Card.Body>
-                                       
-                                            <h5 className="des-text">Total Slider</h5>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col className="p-2" md={3} log={3} sm={6}>
-                                    <Card className="card">
-                                        <Card.Body>
-                                       
-                                            <h5 className="des-text">Total ProductDetails</h5>
-                                        </Card.Body>
-                                    </Card>
-                                </Col>
-                                <Col className="p-2" md={3} log={3} sm={6}>
-                                    <Card className="card">
-                                        <Card.Body>
-                                           
-                                            <h5 className="des-text">Total User</h5>
+                                            <h5 className="des-text">GRAPHICS CARD</h5>
+                                            <h5 className="des-text">100</h5>
                                         </Card.Body>
                                     </Card>
                                 </Col>

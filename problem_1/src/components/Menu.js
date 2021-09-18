@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Navbar,NavLink} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBars, faHome,faEnvelope,faFolder,faComment,faPowerOff, faShoppingBasket, faShoppingBag, faSlidersH, faShoppingCart, faUser, faMale} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faHome, faShoppingBag,faShoppingBasket,faUser} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
 
 class Menu extends Component {
@@ -42,6 +42,9 @@ class Menu extends Component {
                 <div className={this.state.sideNavClass}>
                 <NavLink> <Link className="NavItem" to="/"> <FontAwesomeIcon icon={faHome} /> <span className={this.state.NavText}>Home</span> </Link></NavLink>
                 <NavLink><Link className="NavItem" to="/addproduct"> <FontAwesomeIcon icon={faShoppingBag} /> <span className={this.state.NavText}>Add Product</span></Link></NavLink>
+                <NavLink><Link className="NavItem" to="/product"> <FontAwesomeIcon icon={faShoppingBasket} /> <span className={this.state.NavText}>Show Product</span></Link></NavLink>
+                <NavLink><Link className="NavItem" to="/show"> <FontAwesomeIcon icon={faUser} /> <span className={this.state.NavText}>User Login</span></Link></NavLink>
+                <NavLink><Link className="NavItem" to="/about"> <FontAwesomeIcon icon={faUser} /> <span className={this.state.NavText}>About US</span></Link></NavLink>
                  
                 </div>
                 <div onClick={this.showHideSideNav} className={this.state.mainDivOverlay}>
